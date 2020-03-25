@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Lorem One",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta iste dignissimos in saepe accusamus accusantium ipsum, perspiciatis iusto voluptatibus, a magni sapiente at dolorum ab architecto delectus, natus recusandae."
+    },
+    {
+      "id": 2,
+      "title": "Lorem Two",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta iste dignissimos in saepe accusamus accusantium ipsum, perspiciatis iusto voluptatibus, a magni sapiente at dolorum ab architecto delectus, natus recusandae.",
+      "isRead": true
+    },
+    {
+      "id": 3,
+      "title": "Lorem Three",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta iste dignissimos in saepe accusamus accusantium ipsum, perspiciatis iusto voluptatibus, a magni sapiente at dolorum ab architecto delectus, natus recusandae."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<article :class="{'is-read': article.isRead}">
+  <h2>
+    {{ article.title }} |
+    <span v-if="article.isRead">This article was read</span>
+  </h2>
+  <p>
+    <span class="mark">Company name: {{ company }}</span>
+    {{ article.body }}
+  </p>
+</article>
