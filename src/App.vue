@@ -4,24 +4,13 @@
       <router-link :to="'/'">Home</router-link> |
       <router-link to="/template">Template</router-link> |
       <router-link to="/componentFuture">Component future</router-link> |
-      <router-link to="/styles">Styles</router-link>
+      <router-link to="/styles">Styles</router-link> |
+      <router-link to="/conditional">Conditional</router-link>
     </nav>
     <hr />
     <router-view />
   </div>
 </template>
-
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import Basic from '@/pages/Basic.vue';
-
-@Component({
-  components: {
-    Basic,
-  },
-})
-export default class App extends Vue {}
-</script>
 
 <style lang="scss">
 #app {
