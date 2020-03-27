@@ -2,7 +2,8 @@
   <div id="app">
     <nav>
       <router-link :to="'/'">Home</router-link> |
-      <router-link to="/template">Template</router-link>
+      <router-link to="/template">Template</router-link> |
+      <router-link to="/componentFuture">Component future</router-link>
     </nav>
     <hr />
     <router-view />
