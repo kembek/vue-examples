@@ -12,26 +12,32 @@ Vue.use(VueRouter);
 
 const routes: RouteConfig[] = [
   {
+    name: 'Basic',
     path: '/',
     component: Basic,
   },
   {
+    name: 'Template Syntax',
     path: '/template',
     component: TemplateSyntax,
   },
   {
+    name: 'Component Future',
     path: '/componentFuture',
     component: ComponentFuture,
   },
   {
+    name: 'Styles',
     path: '/styles',
     component: Styles,
   },
   {
+    name: 'Conditional',
     path: '/conditional',
     component: Conditional,
   },
   {
+    name: 'Loop',
     path: '/loop',
     component: Loop,
   },
@@ -39,4 +45,5 @@ const routes: RouteConfig[] = [
 
 export default new VueRouter({
   routes,
+  mode: 'history',
 });
