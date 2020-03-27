@@ -62,7 +62,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component
-export default class Second extends Vue {
+export default class TemplateSyntax extends Vue {
   message = 'Hello world';
 
   rawHtml = '<span style="color: red">This should be red</span>';

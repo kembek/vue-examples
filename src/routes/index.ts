@@ -1,19 +1,19 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 
-import First from '@/pages/First.vue';
-import Second from '@/pages/Second.vue';
+import Basic from '@/pages/Basic.vue';
+import TemplateSyntax from '@/pages/TemplateSyntax.vue';
 
 Vue.use(VueRouter);
 
 const routes: RouteConfig[] = [
   {
     path: '/',
-    component: First,
+    component: Basic,
   },
   {
     path: '/template',
-    component: Second,
+    component: TemplateSyntax,
   },
 ];
 

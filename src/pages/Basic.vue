@@ -68,7 +68,7 @@ import TodoItem, { Todo } from '@/components/TodoItem.vue';
     'todo-item': TodoItem,
   },
 })
-export default class First extends Vue {
+export default class Basic extends Vue {
   message = 'Lorem ipsum dolor sit amet.';
 
   inputMessage = 'Hello Vue';

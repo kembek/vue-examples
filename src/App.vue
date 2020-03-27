@@ -11,11 +11,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import First from '@/pages/First.vue';
+import Basic from '@/pages/Basic.vue';
 
 @Component({
   components: {
-    First,
+    Basic,
   },
 })
 export default class App extends Vue {}
