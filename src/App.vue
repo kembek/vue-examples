@@ -3,7 +3,8 @@
     <nav>
       <router-link :to="'/'">Home</router-link> |
       <router-link to="/template">Template</router-link> |
-      <router-link to="/componentFuture">Component future</router-link>
+      <router-link to="/componentFuture">Component future</router-link> |
+      <router-link to="/styles">Styles</router-link>
     </nav>
     <hr />
     <router-view />
