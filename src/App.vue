@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <nav>
+      <router-link :to="'/'">Home</router-link> |
+      <router-link to="/template">Template</router-link>
+    </nav>
+    <hr />
+    <router-view />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import First from '@/pages/First.vue';
 
 @Component({
   components: {
-    HelloWorld,
+    First,
   },
 })
 export default class App extends Vue {}
@@ -22,8 +26,30 @@ export default class App extends Vue {}
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+
+%text-center {
+  text-align: center;
+}
+
+$headDeep: 6;
+
+@while $headDeep > 3 {
+  h#{$headDeep} {
+    @extend %text-center;
+  }
+  $headDeep: $headDeep - 1;
+}
+
+@for $i from 1 through 3 {
+  h#{$i} {
+    @extend %text-center;
+  }
+}
+
+nav {
+  @extend %text-center;
 }
 </style>
