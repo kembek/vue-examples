@@ -6,7 +6,8 @@
       <router-link to="/componentFuture">Component future</router-link> |
       <router-link to="/styles">Styles</router-link> |
       <router-link to="/conditional">Conditional</router-link> |
-      <router-link to="/loop">Loop</router-link>
+      <router-link to="/loop">Loop</router-link> |
+      <router-link to="/component">Component</router-link>
     </nav>
     <hr />
     <router-view />

@@ -28,7 +28,7 @@
         unde magni earum aliquid. Odio saepe doloremque vitae voluptatem numquam dolor dolore
         libero, ullam necessitatibus reiciendis est distinctio!
       </p>
-      <h2>Component</h2>
+      <h2>Class styles with custom component</h2>
       <CustomText :class="{ red: isRed }" />
     </section>
 
